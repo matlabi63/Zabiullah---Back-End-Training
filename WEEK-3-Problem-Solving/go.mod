@@ -1,0 +1,3 @@
+module WEEK-3-PROBLEM-SOLVING
+
+go 1.22.5
