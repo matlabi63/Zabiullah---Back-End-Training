@@ -1,3 +1,0 @@
-module TIME-COMPLEXITY
-
-go 1.22.5
