@@ -1,0 +1,3 @@
+module RECRUSIVE-NUMBER
+
+go 1.22.5
