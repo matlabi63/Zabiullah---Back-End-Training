@@ -1,0 +1,15 @@
+    "id": 1,
+    "name": "kentang goreng",
+    "price": 15000
+
+    "id": 7,
+    "name": "coklat ayam thunder",
+    "price": 2000
+
+    "id": 9,
+    "name": "ciki sate kambing",
+    "price": 2000
+
+    "id": 10,
+    "name": "kebab",
+    "price": 23000

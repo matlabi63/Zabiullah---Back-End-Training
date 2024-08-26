@@ -1,0 +1,11 @@
+"id": 5,
+"name": "es krim vanilla",
+"price": 4000
+
+"id": 6,
+"name": "es krim stroberi",
+"price": 4500
+
+"id": 8,
+"name": "wafer pisang",
+"price": 2000

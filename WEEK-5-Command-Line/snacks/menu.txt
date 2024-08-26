@@ -1,0 +1,11 @@
+    "id": 2,
+    "name": "roti bakar coklat",
+    "price": 25000
+
+    "id": 3,
+    "name": "roti bakar keju",
+    "price": 25000
+
+    id": 4,
+    "name": "mochi",
+    "price": 7500

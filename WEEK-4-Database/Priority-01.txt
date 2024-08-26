@@ -1,0 +1,38 @@
+mermaid
+erDiagram
+    "End User" {
+        string UserID
+        string Name
+        string Email
+        int Points
+    }
+    "Transaction" {
+        string TransactionID
+        date TransactionDate
+        float TotalAmount
+    }
+    "Bread" {
+        string BreadID
+        string BreadType
+        float Price
+        string Ingredients
+    }
+    "Payment Method" {
+        string PaymentMethodID
+        string MethodName
+    }
+    "Ingredient" {
+        string IngredientID
+        string IngredientName
+        float QuantityInStock
+    }
+    "Admin" {
+        string AdminID
+        string Name
+    }
+    
+    "End User" ||--o{ "Transaction" : makes
+    "Transaction" ||--o{ "Bread" : includes
+    "End User" ||--o{ "Payment Method" : uses
+    "Bread" ||--o{ "Ingredient" : contains
+    "Admin" ||--o{ "Ingredient" : monitors

@@ -1,0 +1,3 @@
+module WEEK-5-COMMAND-LINE
+
+go 1.22.5
