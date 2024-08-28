@@ -1,0 +1,136 @@
+{
+	"info": {
+		"_postman_id": "f1614f4d-cc2d-428f-af77-3a47ce401c6a",
+		"name": "Priority-3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36680903"
+	},
+	"item": [
+		{
+			"name": "Get method",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"created_at\": \"2019-02-18T00:00:00\",\r\n  \"updated_at\": \"2019-02-18T00:00:00\",\r\n  \"deleted_at\": \"2019-02-18T00:00:00\",\r\n  \"client_id\": 1234,\r\n  \"client_key\": \"CLIENT01\",\r\n  \"client_secret\": \"SECRET01\",\r\n  \"status\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://app.swaggerhub.com/apis-docs/sepulsa/RentABook-API/1.0.0#/Book",
+					"protocol": "https",
+					"host": [
+						"app",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"apis-docs",
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0"
+					],
+					"hash": "/Book"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post method",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"client_id\": 1234,\r\n  \"client_key\": \"CLIENT01\",\r\n  \"client_secret\": \"SECRET01\",\r\n  \"status\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://app.swaggerhub.com/apis-docs/sepulsa/RentABook-API/1.0.0#/Book",
+					"protocol": "https",
+					"host": [
+						"app",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"apis-docs",
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0"
+					],
+					"hash": "/Book"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put method",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"client_id\": 1234,\r\n  \"client_key\": \"CLIENT01\",\r\n  \"client_secret\": \"SECRET01\",\r\n  \"status\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://app.swaggerhub.com/apis-docs/sepulsa/RentABook-API/1.0.0#/Book",
+					"protocol": "https",
+					"host": [
+						"app",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"apis-docs",
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0"
+					],
+					"hash": "/Book"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete method",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://app.swaggerhub.com/apis-docs/sepulsa/RentABook-API/1.0.0#/Book",
+					"protocol": "https",
+					"host": [
+						"app",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"apis-docs",
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0"
+					],
+					"hash": "/Book"
+				}
+			},
+			"response": []
+		}
+	]
+}
