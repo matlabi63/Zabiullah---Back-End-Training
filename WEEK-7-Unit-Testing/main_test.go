@@ -15,7 +15,7 @@ func TestRectangleArea(t *testing.T) {
     }{
         {4, 5, "even rectangle"},
         {3, 3, "odd rectangle"},
-        {6, 7, "odd rectangle"},
+        {6, 7, "even rectangle"},
         {8, 4, "even rectangle"},
     }
 
@@ -33,7 +33,7 @@ func TestRectanglePerimeter(t *testing.T) {
         length, width int
         expected      bool
     }{
-        {2, 3, false},
+        {2, 3, true},
         {5, 5, true},
         {10, 10, true},
         {4, 7, false},
@@ -75,7 +75,7 @@ func TestSquarePerimeter(t *testing.T) {
     }{
         {5, false},
         {10, true},
-        {8, true},
+        {8, false},
         {9, false},
     }
 
